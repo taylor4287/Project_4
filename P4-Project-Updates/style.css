@@ -132,8 +132,9 @@ a:hover {
 .d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
-.d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+.d-bloc p a,
+.d-bloc a .social-name {
+    color: #e8dfdb!important;
 }
 
 .d-bloc .a-btn:hover,
@@ -149,8 +150,9 @@ a:hover {
 .d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
-.d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+.d-bloc p a:hover,
+.d-bloc a .social-name:hover {
+    color: rgba(255, 255, 255, 1)!important;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -293,7 +295,8 @@ a:hover {
 }
 
 .navbar-brand {
-    height: auto;
+    height: 50px;
+    width: 250px;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -539,6 +542,7 @@ a[data-lightbox] {
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    /* font-display: swap; */
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -650,6 +654,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
+    /* font-display: swap; */
     font-weight: 400;
     color: #575757!important;
 }
@@ -688,6 +693,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    /* font-display: swap; */
 }
 
 .cta-hero {
@@ -781,7 +787,7 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -816,7 +822,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
@@ -824,11 +830,11 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img/atlanta%20made%20sign.webp");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta%20made%20sign%20orange.webp");
 }
 
 @media (max-width: 1024px) {
