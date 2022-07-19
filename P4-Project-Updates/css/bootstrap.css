@@ -9,55 +9,123 @@
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%;
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
 
-footer,
-header,
-main,
-nav {
-    display: block
+article, 
+aside, 
+details, 
+figcaption, 
+figure, 
+footer, 
+header, 
+hgroup, 
+main, 
+menu, 
+nav, 
+section, 
+summary {
+    display: block;
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
 }
-
-a:active,
-a:hover {
-    outline: 0
-}
-
 
 h1 {
     margin: .67em 0;
-    font-size: 2em
+    font-size: 2em;
 }
 
 img {
-    border: 0
+    border: 0;
 }
 
-button {
+button, 
+input, 
+optgroup, 
+select, 
+textarea {
     margin: 0;
     font: inherit;
     color: inherit;
+}
+
+button {
     overflow: visible;
+}
+
+button, select {
     text-transform: none;
 }
 
-button,
-input[type=reset],
+button, 
+html input[type=button], 
+input[type=reset], 
 input[type=submit] {
     -webkit-appearance: button;
     cursor: pointer
 }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+:after, 
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff
+}
+
+button, 
+input, 
+select, 
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none
+}
+
+img {
+    vertical-align: middle;
+    aspect-ratio: attr(width) / attr(height);
+}
+
+.carousel-inner>.item>a>img, 
+.carousel-inner>.item>img, 
+.img-responsive, 
+.thumbnail a>img, 
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+}
 
 .h1,
 .h2,
@@ -135,6 +203,12 @@ ul {
     }
 }
 
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px
+    }
+}
+
 .row {
     margin-right: -15px;
     margin-left: -15px
@@ -192,6 +266,10 @@ ul {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px
+}
+
+#quote {
+    font-size: large!important;
 }
 
 .col-xs-1,
@@ -470,5 +548,5 @@ ul {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
