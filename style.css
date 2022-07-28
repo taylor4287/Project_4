@@ -431,7 +431,7 @@ h1 {
     }
 }
 
-@media screen (max-width:992) {
+@media (max-width:992) {
     .bg-lines-h2-bg {
         background-image: url(img/lines-h2-bg-responsive.webp);
     }
