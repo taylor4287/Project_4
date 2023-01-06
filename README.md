@@ -2,7 +2,7 @@
 OpenClassrooms project 4: Optimize an Existing Website
 <li> Online at: https://taylor4287.github.io/Project_4/index.html
 
-##Skills Learned
+## Skills Learned
 <li> Optimize the size and speed of a website
 <li> Ensure the accessibility of a website according to WCAG2.0
 <li> Analyze the search engine performance of a website
@@ -11,7 +11,8 @@ OpenClassrooms project 4: Optimize an Existing Website
 
 Code was improved using Google Lighthouse and SEO techniques
 
-##Author
+## Author
 @Openclassrooms
-twitter: @rodewald_taylor
-github: @taylor4287
+<li>twitter: @rodewald_taylor
+<li>github: @taylor4287
+<li>linkedin: www.linkedin.com/in/taylor-rodewald-40065b244
